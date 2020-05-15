@@ -1,0 +1,4 @@
+clarotweaks:
+  css:
+    theme:
+      css/claro.style.tweaks.css: { }

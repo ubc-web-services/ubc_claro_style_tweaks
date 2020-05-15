@@ -1,0 +1,10 @@
+{
+  "name": "ubc-web-services/ubc_claro_style_tweaks",
+  "description": "A Drupal 8 module to add some style tweaks to Claro admin theme",
+  "type": "drupal-module",
+  "authors": [{
+    "name": "O'Toole, James",
+    "email": "james.otoole@ubc.ca"
+  }],
+  "require": {}
+}

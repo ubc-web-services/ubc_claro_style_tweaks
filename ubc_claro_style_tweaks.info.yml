@@ -1,0 +1,7 @@
+name: UBC Claro Style Tweaks
+type: module
+description: This module adds some style tweaks to the Claro admin theme.
+package: UBC Web Services
+
+core: '8.x'
+core_version_requirement: ^8 || ^9
