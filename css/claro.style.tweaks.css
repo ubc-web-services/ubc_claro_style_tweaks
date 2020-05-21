@@ -17,3 +17,8 @@
   }
 
 }
+
+/* fix for image crop region not stretching full-width */
+.form-managed-file.no-upload {
+  width: 100%;
+}
