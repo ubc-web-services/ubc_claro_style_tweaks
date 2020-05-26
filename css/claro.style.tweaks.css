@@ -7,6 +7,7 @@
 @media screen and (min-width: 85em) {
 
   /* fix to allow chosen dropdowns to appear beyond the boundaries of vertical tabs */
+  .js .vertical-tabs__item.claro-details--vertical-tabs-item,
   .js .block-claro-content .vertical-tabs__item {
     overflow: visible;
   }
