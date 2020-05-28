@@ -23,3 +23,12 @@
 .form-managed-file.no-upload {
   width: 100%;
 }
+
+/* Fix for links in formtips */
+.formtips-show a {
+  color: #91adc2;
+}
+
+.formtips-show a:hover {
+  color: #70a6c9;
+}
