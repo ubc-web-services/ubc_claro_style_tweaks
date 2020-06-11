@@ -32,3 +32,12 @@
 .formtips-show a:hover {
   color: #70a6c9;
 }
+
+/* Add styles for Maxlength module */
+.counter {
+  font-size: 80%;
+}
+
+.counter.warning {
+  color: darkred;
+}
