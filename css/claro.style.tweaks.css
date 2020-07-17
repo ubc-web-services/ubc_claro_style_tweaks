@@ -41,3 +41,9 @@
 .counter.warning {
   color: darkred;
 }
+
+/* adjust forcal point module styles */
+.focal-point-preview-link {
+  padding: 1rem;
+  text-decoration: none;
+}

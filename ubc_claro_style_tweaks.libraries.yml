@@ -2,3 +2,8 @@ clarotweaks:
   css:
     theme:
       css/claro.style.tweaks.css: { }
+  js:
+    js/claro.style.tweaks.js: { }
+  dependencies:
+    - core/jquery
+    - core/jquery.once
