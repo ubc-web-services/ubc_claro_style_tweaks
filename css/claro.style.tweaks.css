@@ -13,8 +13,13 @@
   }
 
   /* fix to correct hidden vertical tabs in node edit form */
+  /*
   .js .node-form .vertical-tabs__item > summary {
     display: block !important;
+  }
+  */
+  .js .node-form .vertical-tabs__menu-item::after {
+    bottom: -.5em;
   }
 
 }
@@ -39,7 +44,7 @@
 }
 
 .counter.warning {
-  color: darkred;
+  color: #d72222 !important;
 }
 
 /* Hide Maxlength counters if they don't have an attached field (e.g. summary/body) */
