@@ -6,8 +6,11 @@
  */
 
 /**
- * Implements hook_preprocess_page().
+ * Implements hook_page_attachments().
  */
-function ubc_claro_style_tweaks_preprocess_page(&$variables) {
-  $variables['#attached']['library'][] = 'ubc_claro_style_tweaks/clarotweaks';
+function ubc_claro_style_tweaks_page_attachments(array &$attachments) {
+  if (!\Drupal::currentUser()
+    ->hasPermission('access administration pages')) {
+    $attachments['#attached']['library'][] = 'ubc_claro_style_tweaks/clarotweaks';
+  }
 }
