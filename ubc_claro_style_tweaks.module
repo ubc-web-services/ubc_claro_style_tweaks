@@ -9,7 +9,7 @@
  * Implements hook_page_attachments().
  */
 function ubc_claro_style_tweaks_page_attachments(array &$attachments) {
-  if (!\Drupal::currentUser()
+  if (\Drupal::currentUser()
     ->hasPermission('access content overview')) {
     $attachments['#attached']['library'][] = 'ubc_claro_style_tweaks/clarotweaks';
   }
