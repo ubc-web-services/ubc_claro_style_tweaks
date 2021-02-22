@@ -78,7 +78,7 @@
 }
 
 /* remove overflow hidden on views exposed filters that prevents chosen dropdowns from being seen */
-.views-exposed-form.views-exposed-form,
+.views-exposed-form,
 .views-displays {
   overflow: visible !important;
 }
