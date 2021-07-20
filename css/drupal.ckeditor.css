@@ -1,0 +1,10 @@
+/* Adjust styles dropdown to allow longer content */
+div.cke_combopanel {
+  height: 300px !important;
+  width: 300px !important;
+}
+
+li.cke_panel_listItem a {
+  padding: 3px 5px !important;
+  font-size: .8em !important;
+}
