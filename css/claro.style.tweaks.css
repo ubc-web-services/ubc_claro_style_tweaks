@@ -1,29 +1,3 @@
-
-/* fix for multiple drag handles in node edit form */
-.js .node-form .tabledrag-cell-content__item {
-  display: none;
-}
-
-@media screen and (min-width: 85em) {
-
-  /* fix to allow chosen dropdowns to appear beyond the boundaries of vertical tabs */
-  .js .vertical-tabs__item.claro-details--vertical-tabs-item,
-  .js .block-claro-content .vertical-tabs__item {
-    overflow: visible;
-  }
-
-  /* fix to correct hidden vertical tabs in node edit form */
-  /*
-  .js .node-form .vertical-tabs__item > summary {
-    display: block !important;
-  }
-  */
-  .js .node-form .vertical-tabs__menu-item::after {
-    bottom: -.5em;
-  }
-
-}
-
 /* fix for image crop region not stretching full-width */
 .form-managed-file.no-upload {
   width: 100%;

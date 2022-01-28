@@ -3,8 +3,3 @@ clarotweaks:
     theme:
       css/claro.style.tweaks.css: { }
       css/drupal.ckeditor.css: { }
-  js:
-    js/claro.style.tweaks.js: { }
-  dependencies:
-    - core/jquery
-    - core/jquery.once
